@@ -1,3 +1,5 @@
+
+
 .carousel-item{
     background: no-repeat scroll center scroll;
     background-size: cover;
@@ -23,7 +25,10 @@
 .carousel-caption p{
     font-size: 2vmin;
 }
-
+#course-h1{
+    margin-top: 3rem;
+    width: 50%;
+}
 .d-course-p{
     width: 65%;
 }
@@ -34,6 +39,22 @@ footer{
     height: 400px;
 }
 @media only screen and (min-width: 200px) and (max-width: 575px){
+    .carousel-caption{
+        padding-bottom: 0px;
+    }
+    .carousel-caption h1{
+        font-size: 5vw;
+        
+    }
+    .carousel-caption p{
+        font-size: 2.5vw;
+    }
+    #course-h1{
+        width: 75%;
+    }
+    .d-course-p{
+        width: 80%;
+    }   
     .cover{
         height: 250px;
         width: 100%;
@@ -46,6 +67,21 @@ footer{
     }
     footer{
         height: 300px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 900px){
+    .carousel-caption{
+        padding-bottom: 0px;
+    }
+    .carousel-caption button{
+        font-size: 2vmin;
+    }
+    .carousel-caption h1{
+        font-size: 5vw;
+        
+    }
+    .carousel-caption p{
+        font-size: 1.5vw;
     }
 }
 
