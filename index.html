@@ -194,7 +194,9 @@
 
         <div class="all-items row row-cols-1 row-cols-lg-2 g-3 my-4">
           <div class="col">
-            <div class="item d-flex flex-column flex-sm-row align-items-center gap-3 border rounded">
+            <div
+              class="item d-flex flex-column flex-sm-row align-items-center gap-3 border rounded"
+            >
               <div class="cover rounded-top">
                 <img class="" src="./images/course/course-1.png" alt="" />
               </div>
@@ -209,7 +211,9 @@
             </div>
           </div>
           <div class="col">
-            <div class="item d-flex align-items-center flex-column flex-sm-row gap-3 border rounded">
+            <div
+              class="item d-flex align-items-center flex-column flex-sm-row gap-3 border rounded"
+            >
               <div class="cover">
                 <img class="" src="./images/course/course-2.png" alt="" />
               </div>
@@ -224,7 +228,9 @@
             </div>
           </div>
           <div class="col">
-            <div class="item d-flex flex-column flex-sm-row align-items-center gap-3 border rounded">
+            <div
+              class="item d-flex flex-column flex-sm-row align-items-center gap-3 border rounded"
+            >
               <div class="cover">
                 <img class="" src="./images/course/course-3.png" alt="" />
               </div>
@@ -239,7 +245,9 @@
             </div>
           </div>
           <div class="col">
-            <div class="item d-flex flex-column flex-sm-row align-items-center gap-3 border rounded">
+            <div
+              class="item d-flex flex-column flex-sm-row align-items-center gap-3 border rounded"
+            >
               <div class="cover">
                 <img class="" src="./images/course/course-4.png" alt="" />
               </div>
@@ -254,7 +262,9 @@
             </div>
           </div>
           <div class="col">
-            <div class="item d-flex flex-column flex-sm-row align-items-center gap-3 border rounded">
+            <div
+              class="item d-flex flex-column flex-sm-row align-items-center gap-3 border rounded"
+            >
               <div class="cover">
                 <img class="" src="./images/course/course-5.png" alt="" />
               </div>
@@ -269,7 +279,9 @@
             </div>
           </div>
           <div class="col">
-            <div class="item d-flex flex-column flex-sm-row align-items-center gap-3 border rounded">
+            <div
+              class="item d-flex flex-column flex-sm-row align-items-center gap-3 border rounded"
+            >
               <div class="cover">
                 <img class="" src="./images/course/course-6.png" alt="" />
               </div>
@@ -291,6 +303,104 @@
         </div>
       </section>
       <!-- Popular Courses section ENds -->
+
+      <!-- ready to join starts  -->
+      <section id="ready" class="bg-primary rounded my-5 py-5">
+        <div
+          class="d-flex flex-column flex-lg-row justify-content-between align-items-center h-100 px-5 gap-3"
+        >
+          <div class="text-center text-lg-start text-white">
+            <h1 class="px-lg-5">Ready to join?</h1>
+            <p class="px-lg-5">
+              It is a long established fact that a reader will be distracted by
+              the <br />readable content of a page when looking at its layout.
+            </p>
+          </div>
+          <div class="modalButton">
+            <!-- modal start  -->
+            <!-- Click on Modal Button -->
+            <button
+              type="button"
+              class="btn btn-light text-primary fw-semibold px-3 me-lg-5"
+              data-bs-toggle="modal"
+              data-bs-target="#modalForm"
+            >
+              Registration
+            </button>
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="modalForm"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Let's do the Registration
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="mb-3">
+                        <label class="form-label">Email Address</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="username"
+                          name="username"
+                          placeholder="Username"
+                        />
+                      </div>
+                      <div class="mb-3">
+                        <label class="form-label">Password</label>
+                        <input
+                          type="password"
+                          class="form-control"
+                          id="password"
+                          name="password"
+                          placeholder="Password"
+                        />
+                      </div>
+                      <div class="mb-3 form-check">
+                        <input
+                          type="checkbox"
+                          class="form-check-input"
+                          id="rememberMe"
+                        />
+                        <label class="form-check-label" for="rememberMe"
+                          >Remember me</label
+                        >
+                      </div>
+                      <div class="modal-footer d-block">
+                        <p class="float-start">
+                          Not yet account <a href="#">Sign Up</a>
+                        </p>
+                        <button type="submit" class="btn btn-warning float-end">
+                          Submit
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- modal end  -->
+          </div>
+        </div>
+      </section>
+      <!-- ready to join ends  -->
+
+      
     </main>
     <!-- main content Ends -->
 

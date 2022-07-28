@@ -27,6 +27,9 @@
 .d-course-p{
     width: 65%;
 }
+#ready{
+    height: 300px;
+}
 
 @media only screen and (min-width: 200px) and (max-width: 575px){
     .cover{
