@@ -1,0 +1,25 @@
+.carousel-item{
+    background: no-repeat scroll center scroll;
+    background-size: cover;
+}
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.5;
+}
+.carousel-caption button{
+    font-size: 2vmin;
+}
+.carousel-caption h1{
+    font-size: 4vw;
+    
+}
+.carousel-caption p{
+    font-size: 2vmin;
+}
